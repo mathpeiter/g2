@@ -1,0 +1,9 @@
+.contryItemContainer{
+    width: 100px;
+    height: 150px;
+    position: relative;
+}
+
+.flag{
+    width: 100px;
+}

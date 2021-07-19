@@ -67,7 +67,7 @@ export default class App extends Component {
       countries,
       countryCount: countries.length,
       totalPopulation,
-      formattedPopulation: totalPopulation,
+      formattedPopulation: formatNumber(totalPopulation),
     });
   };
 
@@ -96,7 +96,8 @@ export default class App extends Component {
           </div>
         </div>
         <hr />
-        <div>          
+        <div>
+          <CountryList data={countries} />
         </div>
       </div>
     );

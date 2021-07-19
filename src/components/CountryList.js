@@ -1,4 +1,3 @@
-
 import React, { Component} from 'react';
 
 import css from "./country-item.module.css";
@@ -19,7 +18,7 @@ export default class CountryList extends Component {
 
         return (
             <div className={css.container}>
-                <h2 className="title"></h2>
+                <h2 className="title">Paises</h2>
 
                 <ul className={css.ulContainer}>
                     {data.map((item) => {
